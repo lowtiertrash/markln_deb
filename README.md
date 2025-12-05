@@ -21,81 +21,81 @@ A feature-rich markdown editor that runs in the terminal with real-time preview.
 - Resize on the fly
 - Syntax Highlighting
 
-**MarkLn Installation Guide for Ubuntu/Debian**              │
-│                                                              │
-│ This guide will walk you through installing the 'markln'     │
-│  application on Ubuntu or Debian-based systems using the     │
-│  provided '.deb' package.                                    │
-│                                                              │
-│ **Prerequisites:**                                           │
-│ *   A stable internet connection.                            │
-│ *   Basic familiarity with the Linux terminal.               │
-│                                                              │
-│ **Step 1: Download the .deb package**                        │
-│                                                              │
-│ 1.  Open your web browser and go to the MarkLn GitHub Re     │
-│ leases page:                                                 │
-│     'https://github.com/lowtiertrash/markln_deb/releases     │
-│ ' (Replace 'lowtiertrash/markln_deb' with your actual re     │
-│ pository path if different).                                 │
-│ 2.  Locate the latest release (e.g., 'v0.1.0').              │
-│ 3.  Under the "Assets" section of the release, download      │
-│ the 'markln_0.1.0_all.deb' file.                             │
-│                                                              │
-│     Alternatively, you can download it directly from you     │
-│ r terminal. Replace 'YOUR_GITHUB_USERNAME' and 'YOUR_REP     │
-│ O_NAME' and 'VERSION' with the correct values.               │
-│                                                              │
-│     ```bash                                                  │
-│     # Example using wget (replace with actual download U     │
-│ RL from GitHub Releases)                                     │
-│     wget https://github.com/YOUR_GITHUB_USERNAME/YOUR_RE     │
-│ PO_NAME/releases/download/VERSION/markln_0.1.0_all.deb       │
-│     ```                                                      │
-│     *Example for v0.1.0 assuming lowtiertrash/markln_deb     │
-│ :*                                                           │
-│     ```bash                                                  │
-│     wget https://github.com/lowtiertrash/markln_deb/rele     │
-│ ases/download/v0.1.0/markln_0.1.0_all.deb                    │
-│     ```                                                      │
-│                                                              │
-│ **Step 2: Install the .deb package**                         │
-│                                                              │
-│ 1.  Open your terminal.                                      │
-│ 2.  Navigate to the directory where you downloaded the '     │
-│ .deb' package (e.g., 'cd ~/Downloads').                      │
-│ 3.  Install the package using 'dpkg':                        │
-│     ```bash                                                  │
-│     sudo dpkg -i markln_0.1.0_all.deb                        │
-│     ```                                                      │
-│     You might encounter dependency errors during this st     │
-│ ep. This is normal if you don't have all required librar     │
-│ ies installed. We will fix this in the next step.            │
-│                                                              │
-│ **Step 3: Resolve Dependencies (if any)**                    │
-│                                                              │
-│ If 'dpkg' reported dependency errors, you can automatica     │
-│ lly install the missing packages using 'apt':                │
-│ ```bash                                                      │
-│ sudo apt install -f                                          │
-│ ```                                                          │
-│ This command will attempt to correct a system where depe     │
-│ ndencies are unmet. It will usually install any missing      │
-│ packages required by 'markln'.                               │
-│                                                              │
-│ **Step 4: Run MarkLn**                                       │
-│                                                              │
-│ Once the installation is complete and dependencies are r     │
-│ esolved, you can launch the MarkLn application directly      │
-│ from your terminal:                                          │
-│ ```bash                                                      │
-│ markln                                                       │
-│ ```                                                          │
-│ If you encounter any issues, please refer to the trouble     │
-│ shooting section or report an issue on the GitHub reposi     │
-│ tory.                                                        │
-│                                                              │
-│ ---
+*MarkLn Installation Guide for Ubuntu/Debian**              
+                                                              
+ This guide will walk you through installing the 'markln'     
+  application on Ubuntu or Debian-based systems using the     
+  provided '.deb' package.                                    
+                                                              
+ **Prerequisites:**                                           
+ *   A stable internet connection.                            
+ *   Basic familiarity with the Linux terminal.               
+                                                              
+ **Step 1: Download the .deb package**                        
+                                                              
+ 1.  Open your web browser and go to the MarkLn GitHub Re     
+ leases page:                                                 
+     'https://github.com/lowtiertrash/markln_deb/releases     
+ ' (Replace 'lowtiertrash/markln_deb' with your actual re     
+ pository path if different).                                 
+ 2.  Locate the latest release (e.g., 'v0.1.0').              
+ 3.  Under the "Assets" section of the release, download      
+ the 'markln_0.1.0_all.deb' file.                             
+                                                              
+     Alternatively, you can download it directly from you     
+ r terminal. Replace 'YOUR_GITHUB_USERNAME' and 'YOUR_REP     
+ O_NAME' and 'VERSION' with the correct values.               
+                                                              
+     ```bash                                                  
+     # Example using wget (replace with actual download U     
+ RL from GitHub Releases)                                     
+     wget https://github.com/YOUR_GITHUB_USERNAME/YOUR_RE     
+ PO_NAME/releases/download/VERSION/markln_0.1.0_all.deb       
+     ```                                                      
+     *Example for v0.1.0 assuming lowtiertrash/markln_deb     
+ :*                                                           
+     ```bash                                                  
+     wget https://github.com/lowtiertrash/markln_deb/rele     
+ ases/download/v0.1.0/markln_0.1.0_all.deb                    
+     ```                                                      
+                                                              
+ **Step 2: Install the .deb package**                         
+                                                              
+ 1.  Open your terminal.                                      
+ 2.  Navigate to the directory where you downloaded the '     
+ .deb' package (e.g., 'cd ~/Downloads').                      
+ 3.  Install the package using 'dpkg':                        
+     ```bash                                                  
+     sudo dpkg -i markln_0.1.0_all.deb                        
+     ```                                                      
+     You might encounter dependency errors during this st     
+ ep. This is normal if you don't have all required librar     
+ ies installed. We will fix this in the next step.            
+                                                              
+ **Step 3: Resolve Dependencies (if any)**                    
+                                                              
+ If 'dpkg' reported dependency errors, you can automatica     
+ lly install the missing packages using 'apt':                
+ ```bash                                                      
+ sudo apt install -f                                          
+ ```                                                          
+ This command will attempt to correct a system where depe    
+ ndencies are unmet. It will usually install any missing      
+ packages required by 'markln'.                               
+                                                              
+ **Step 4: Run MarkLn**                                       
+                                                              
+ Once the installation is complete and dependencies are r     
+ esolved, you can launch the MarkLn application directly      
+ from your terminal:                                          
+ ```bash                                                      
+ markln                                                       
+ ```                                                          
+ If you encounter any issues, please refer to the trouble     
+ shooting section or report an issue on the GitHub reposi     
+ tory.                                                        
+                                                              
+ ---
 
 ### USAGE
 
